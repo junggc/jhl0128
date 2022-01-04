@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-qqppdd
+<button type="button" onclick="window.open('/ddd');" class="btn btn-primary">누르면ddd로 간다</button>
+
 </body>
 </html>

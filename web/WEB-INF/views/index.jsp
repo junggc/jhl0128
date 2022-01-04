@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>이것은 타이틀</title>
   </head>
   <body>
-  $END$
+  <button type="button" class="btn btn-primary">Primary</button>
+  <h1>여기는 ddd 이다</h1>
   </body>
 </html>
