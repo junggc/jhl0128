@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>이것은 타이틀</title>
   </head>
   <body>
-  $END$
+  <button type="button" onclick="window.open('/ddd');" class="btn btn-primary">누르면 ddd로 간다</button>
+
+  <h1>/fff로 가서  index.jsp 불럿다</h1>
   </body>
 </html>
