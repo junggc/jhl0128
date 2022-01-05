@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="heading">자바스크립트</h1>
+<p id="text">위 텍스트를 클릭해보세요</p>
+<script>
+   var reply = confirm("정말 그렇게 할래요?");
+
+    // alert("안녕?")
+    // alert("안녕2?")
+    // alert("안녕3?")
+    // alert("안녕4?")
+    // alert("안녕5?")
+
+    var heading = document.querySelector('#heading');
+    heading.onclick=function (){
+        heading.style.color="skyblue";
+    }
+// var dateChecker = function() {
+// var date = new Date(); // 현재 날짜를 저장
+// alert(date); // 날짜를 알림
+// }
+// dateChecker(); // 실행
+</script>
+</body>
+</html>
