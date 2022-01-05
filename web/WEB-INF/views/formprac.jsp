@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: wjdrm
-  Date: 2022-01-04
-  Time: 오후 11:06
+  Date: 2022-01-05
+  Time: 오후 7:33
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,8 +11,9 @@
     <title>Title</title>
 </head>
 <body>
-<button type="button" onclick="window.open('/eee');" >formprac으로</button>
-
-<h1>/ddd 가서 fff.jsp불럿다</h1>
+ <form action="/complete">
+     <input type="text" name="bb">
+     <input type="submit" value="submit">
+ </form>
 </body>
 </html>
