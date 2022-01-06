@@ -11,7 +11,7 @@
     <title>이것은 타이틀</title>
   </head>
   <body>
-  <button type="button" onclick="window.open('/ddd');" class="btn btn-primary">누르면 ddd로 간다</button>
+  <button type="button" onclick="location.href='/ddd'" class="btn btn-primary">누르면 ddd로 간다</button>
 
   <h1>/fff로 가서  index.jsp 불럿다</h1>
   </body>

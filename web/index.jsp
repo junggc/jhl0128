@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<button type="button" onclick="window.open('/fff');" class="btn btn-primary">누르면fff로 간다</button>
+<button type="button" onclick="location.href='/fff'" class="btn btn-primary">누르면fff로 간다</button>
 <h1>버튼을 누르시오</h1>
 </body>
 </html>

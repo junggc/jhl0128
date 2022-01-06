@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<button type="button" onclick="window.open('/eee');" >formprac으로</button>
+<button type="button" onclick="location.href='/eee'" class="btn btn-primary">formprac으로</button>
 
 <h1>/ddd 가서 fff.jsp불럿다</h1>
 </body>
