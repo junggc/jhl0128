@@ -15,7 +15,9 @@
 <%--폼태그를 만들어서 폼액션으로 /complete를 달아 submit버튼을 눌렀을때  /complete로 가게 한다--%>
 <%--이떄 TheController 를 탐--%>
  <form action="/complete">
-     <input type="text" name="bb">
+     <input type="text" name="bb"><br />
+     <input type="text" name="cc"><br />
+     <input type="text" name="ee"><br />
      <input type="submit" value="submit">
  </form>
 </body>

@@ -16,11 +16,11 @@
 <body>
  <h1>여기가 끝</h1>
 
-<%=request.getAttribute("bb")%>
+<%--<%=request.getAttribute("bb")%>--%>
 
- ${bb}
+ ${cc}
 
-<c:out value="${bb}"/>
+<c:out value="${ee}"/>
 
 </body>
 </html>

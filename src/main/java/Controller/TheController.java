@@ -27,12 +27,12 @@ public class TheController {
         TheService theService = new TheService();
         theService.TDto(thed);
 
-        System.out.println(httpservletrequest.getParameter("bb"));
+       // System.out.println(httpservletrequest.getParameter("bb"));
 //        TheDto thedto = new TheDto();
 //        thedto.setBb(httpservletrequest.getParameter("bb"));
 //        System.out.println(thedto.getBb());
         System.out.println(thed.getBb()+"PP");
-        model.addAttribute("bb",httpservletrequest.getParameter("bb"));
+        model.addAttribute("cc",httpservletrequest.getParameter("cc"));
         return "ends";
 
     }
