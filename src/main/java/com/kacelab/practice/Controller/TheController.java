@@ -3,6 +3,7 @@ package com.kacelab.practice.Controller;
 
 import com.kacelab.practice.Controller.Dto.TheDto;
 import com.kacelab.practice.Service.TheService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -13,7 +14,8 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class TheController {
     // /eee로 가서 리턴값인 formprac.jsp 파일을 브라우저에 보여줌
-
+    @Autowired
+    private TheService theService;
 
     @RequestMapping(value="/eee")
     public String main(){
