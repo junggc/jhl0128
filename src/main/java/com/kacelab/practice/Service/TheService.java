@@ -1,6 +1,7 @@
-package Service;
+package com.kacelab.practice.Service;
 
-import Controller.Dto.TheDto;
+import com.kacelab.practice.Controller.Dto.TheDto;
+import org.springframework.stereotype.Service;
 
 public class TheService {
     public String TDto(TheDto thedto){

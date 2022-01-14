@@ -1,4 +1,4 @@
-package Controller.Dto;
+package com.kacelab.practice.Controller.Dto;
 
 public class TheDto {
 
